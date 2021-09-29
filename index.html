@@ -29,7 +29,22 @@
     <!--header section start-->
     <!--main section start-->
     <main>
-
+      <p class="title">Task 2</p>
+      <p class="array">Given Array : </p>
+      <div class="form-block">
+        <form onsubmit="validate()">
+          <div class="form-group">
+            <label>Enter a Natural Nummber to find pair of numbers from the given array whose sum equals to that.</label>
+            <span class="error">Error: </span>
+            <input type="text" id="num" placeholder="Enter Number here.">
+          </div>
+          <div class="form-control">
+            <input type="submit" value="Find" id="btn">
+            <input type="reset" value="clear" id="reset" onclick="reset()">
+          </div>
+        </form>
+      </div>
+      <div class="output" ></div>
     </main>
     <!--main section end-->
     
