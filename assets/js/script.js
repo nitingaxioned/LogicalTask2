@@ -35,9 +35,10 @@ function check(){
             }
         }
     }
-    if(!flag>0)
+    if(!flag>0){
     document.write("Not found any possible pair.");
     document.write('<br><br><input type="button" value="Find for Next Nummber" id="reset" onclick="fun()"><br>');
+    }
 }
 
 fun();
