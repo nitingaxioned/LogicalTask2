@@ -34,13 +34,13 @@
       <div class="form-block">
         <form onsubmit="validate()">
           <div class="form-group">
-            <span class="error">Error: </span>
             <label>Enter a Natural Nummber to find pair of numbers from the given array whose sum equals to that.</label>
+            <span class="error">Error: </span>
             <input type="text" id="num" placeholder="Enter Number here.">
           </div>
-          <div>
+          <div class="form-control">
             <input type="submit" value="Find" id="btn">
-            <input type="reset" value="clear" id="reset">
+            <input type="reset" value="clear" id="reset" onclick="reset()">
           </div>
         </form>
       </div>
