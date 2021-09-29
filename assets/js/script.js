@@ -5,6 +5,7 @@
 var random=[1,2,3,4,5,6,7,8,9,100,500,8000,5451,9875,5221], n, i, j, flag=0;
 
 function fun(){
+    document.open();
     document.write("Given Array [ "+random+" ]<br><br>");
     document.write("Enter a Natural Nummber to find pair of nummbers from the given array whose sum equals to that.<br><br>");
     document.write('<input type="text" id="num" placeholder="Enter Nummber"><br><br>');
@@ -22,6 +23,7 @@ function validate(){
 }
 
 function check(){
+    document.open();
     document.write("Given Array [ "+random+" ]<br>");
     document.write("Enterd Number : "+n+" <br><br>");
     document.write("Possible pair: <br><br>");
