@@ -15,6 +15,8 @@ function validate(){
     else{
         document.getElementById("error").innerHTML = "Error : "+document.getElementById("num").value+" is not a Natural Number";
         document.getElementById("error").style.visibility = "visible";
+        txt="";
+        flag=0;
     }
 }
 
@@ -41,5 +43,6 @@ function check(){
         document.getElementById("output").style.visibility = "visible";
         document.getElementById("output").innerHTML = txt;
         txt="";
+        flag=0;
     }
 }
